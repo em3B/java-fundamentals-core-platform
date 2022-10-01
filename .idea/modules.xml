@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/03/demos/exercise-files/after/CreateAndPopulateZip/CreateAndPopulateZip.iml" filepath="$PROJECT_DIR$/03/demos/exercise-files/after/CreateAndPopulateZip/CreateAndPopulateZip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03/demos/exercise-files/before/CreateAndPopulateZip/CreateAndPopulateZip1.iml" filepath="$PROJECT_DIR$/03/demos/exercise-files/before/CreateAndPopulateZip/CreateAndPopulateZip1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06/demos/exercise-files/before/ExerciseCmdLine/ExerciseCmdLine.iml" filepath="$PROJECT_DIR$/06/demos/exercise-files/before/ExerciseCmdLine/ExerciseCmdLine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06/demos/exercise-files/after/ExerciseCmdLine/ExerciseCmdLine1.iml" filepath="$PROJECT_DIR$/06/demos/exercise-files/after/ExerciseCmdLine/ExerciseCmdLine1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03/demos/exercise-files/before/ExerciseTryWithResources/ExerciseTryWithResources.iml" filepath="$PROJECT_DIR$/03/demos/exercise-files/before/ExerciseTryWithResources/ExerciseTryWithResources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03/demos/exercise-files/after/ExerciseTryWithResources/ExerciseTryWithResources1.iml" filepath="$PROJECT_DIR$/03/demos/exercise-files/after/ExerciseTryWithResources/ExerciseTryWithResources1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06/demos/exercise-files/after/PropertiesFromResource/PropertiesFromResource.iml" filepath="$PROJECT_DIR$/06/demos/exercise-files/after/PropertiesFromResource/PropertiesFromResource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06/demos/exercise-files/before/PropertiesFromResource/PropertiesFromResource1.iml" filepath="$PROJECT_DIR$/06/demos/exercise-files/before/PropertiesFromResource/PropertiesFromResource1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-fundamentals-core-platform.iml" filepath="$PROJECT_DIR$/.idea/java-fundamentals-core-platform.iml" />
+    </modules>
+  </component>
+</project>
