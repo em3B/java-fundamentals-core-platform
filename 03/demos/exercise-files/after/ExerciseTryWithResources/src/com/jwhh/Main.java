@@ -7,10 +7,10 @@ import java.io.Writer;
 public class Main {
 
     public static void main(String[] args) {
-	    //doTryCatchFinally();
+//	    doTryCatchFinally();
 //        doTryWithResources();
-//        doTryWithResourcesMulti();
-        doCloseThing();
+        doTryWithResourcesMulti();
+//        doCloseThing();
     }
 
     public static void doTryCatchFinally() {
@@ -18,7 +18,7 @@ public class Main {
         int length;
         Reader reader = null;
         try  {
-            reader = Helper.openReader("file1.txt");
+            reader = Helper.openReader("/Users/emily/Downloads/java-fundamentals-core-platform/03/demos/exercise-files/after/ExerciseTryWithResources/file1.txt");
             while((length = reader.read(buff)) >= 0) {
                 System.out.println("\nlength: " + length);
                 for(int i=0; i < length; i++)
@@ -39,7 +39,7 @@ public class Main {
     public static void doTryWithResources() {
         char[] buff = new char[8];
         int length;
-        try (Reader reader = Helper.openReader("file1.txt")) {
+        try (Reader reader = Helper.openReader("/Users/emily/Downloads/java-fundamentals-core-platform/03/demos/exercise-files/after/ExerciseTryWithResources/file1.txt")) {
             while((length = reader.read(buff)) >= 0) {
                 System.out.println("\nlength: " + length);
                 for(int i=0; i < length; i++)
@@ -53,8 +53,8 @@ public class Main {
     public static void doTryWithResourcesMulti() {
         char[] buff = new char[8];
         int length;
-        try (Reader reader = Helper.openReader("file1.txt");
-             Writer writer = Helper.openWriter("file2.txt"))  {
+        try (Reader reader = Helper.openReader("/Users/emily/Downloads/java-fundamentals-core-platform/03/demos/exercise-files/after/ExerciseTryWithResources/file1.txt");
+             Writer writer = Helper.openWriter("/Users/emily/Downloads/java-fundamentals-core-platform/03/demos/exercise-files/after/ExerciseTryWithResources/file2.txt"))  {
             while((length = reader.read(buff)) >= 0) {
                 System.out.println("\nlength: " + length);
                 writer.write(buff, 0, length);
