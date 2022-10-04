@@ -5,7 +5,6 @@ import java.io.Reader;
 import java.io.Writer;
 
 public class Main {
-//    note
 
     public static void main(String[] args) {
 	    doTryCatchFinally();
